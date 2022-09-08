@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> Skickar dig vidare till den söta vilden. Var god vänta.</h1>
+    <script>
+    setTimeout(function(){
+    console.log("I am the third log after 5 seconds");
+    },5000);
+    window.location.replace("{{redirect_url}}");
+    </script>
+{% endblock %}

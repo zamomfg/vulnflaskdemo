@@ -1,0 +1,2 @@
+flask_admin==1.5.2
+pyjwt==2.3.0
